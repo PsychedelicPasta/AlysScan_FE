@@ -22,8 +22,8 @@ const wagmiConfig = (() => {
       },
       projectId: feature.walletConnect.projectId,
       metadata: {
-        name: `${ config.chain.name } explorer`,
-        description: `${ config.chain.name } explorer`,
+        name: `${ config.chain.name } `,
+        description: `${ config.chain.name } `,
         url: config.app.baseUrl,
         icons: [ config.UI.sidebar.icon.default ].filter(Boolean),
       },
