@@ -14,6 +14,11 @@ You can configure your app by passing necessary environment variables when start
 
 ```sh
 docker run -p 3000:3000 --env-file <path-to-your-env-file> ghcr.io/blockscout/frontend:latest
+
+```
+Alys Example: 
+```
+docker run -p 3000:3000 --env-file .env.alys ghcr.io/blockscout/frontend:latest
 ```
 
 Alternatively, you can build your own docker image and run your app from that. Please follow this [guide](./docs/CUSTOM_BUILD.md).
